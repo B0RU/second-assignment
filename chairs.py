@@ -21,7 +21,7 @@ def chairs():
     #seat & back
     glPushMatrix()
     glPushAttrib(GL_ALL_ATTRIB_BITS)
-    glColor(1,1,1)
+    glColor(0.5,0.5,0.5)
     glTranslate(-0.25,0,-3.25)
     glScale(3,2.5,0.5)
     glutSolidCube(1)
@@ -30,7 +30,7 @@ def chairs():
 
     glPushMatrix()
     glPushAttrib(GL_ALL_ATTRIB_BITS)
-    glColor(1, 1, 1)
+    glColor(0.5, 0.5, 0.5)
     glLineWidth(2)
     glTranslate(1, 0, 0)
     glScale(3, 0.25, 3)
@@ -42,7 +42,7 @@ def chairs():
 
     glPushMatrix()
     glPushAttrib(GL_ALL_ATTRIB_BITS)
-    glColor(1, 1, 1)
+    glColor(0.5, 0.5, 0.5)
     glTranslate(-0.32, -1.5, 1.2)
     glScale(1, 5, 1)
     glutSolidCube(0.5)
@@ -51,7 +51,7 @@ def chairs():
 
     glPushMatrix()
     glPushAttrib(GL_ALL_ATTRIB_BITS)
-    glColor(1, 1, 1)
+    glColor(0.5, 0.5, 0.5)
     glTranslate(2.2, -1.5, 1.2)
     glScale(1, 5, 1)
     glutSolidCube(0.5)
@@ -61,7 +61,7 @@ def chairs():
 
     glPushMatrix()
     glPushAttrib(GL_ALL_ATTRIB_BITS)
-    glColor(1, 1, 1)
+    glColor(0.5, 0.5, 0.5)
     glTranslate(1.75, -1.5, -2.2)
     glScale(1, 3.8, 1)
     glutSolidCube(0.5)
